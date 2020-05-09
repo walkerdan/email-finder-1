@@ -2,12 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31fdcd26-4658-4424-a58c-9666d8ef8950" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/depaul/email/EmailFinderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/email-finder.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/email-finder.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -21,18 +36,22 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="last_opened_file_path" value="$USER_HOME$/OneDrive/Desktop/Software Testing/Week4/SOFTWARE TESTING - 2019-2020 Spring - 4222020 - 607 AM/MocksInClass/MocksInClass/pom.xml" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.EmailFinderTest.testSetupStorage">
     <configuration name="EmailFinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu.depaul.email.EmailFinder" />
       <module name="email-finder" />
@@ -46,8 +65,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EmailFinderTest.testSetupStorage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="email-finder" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.depaul.email.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.depaul.email" />
+      <option name="MAIN_CLASS_NAME" value="edu.depaul.email.EmailFinderTest" />
+      <option name="METHOD_NAME" value="testSetupStorage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EmailFinderTest.testSetupStorage" />
         <item itemvalue="Application.EmailFinder" />
       </list>
     </recent_temporary>
@@ -69,6 +105,9 @@
       <workItem from="1587908714055" duration="631000" />
       <workItem from="1587986832041" duration="3000" />
       <workItem from="1588072672081" duration="688000" />
+      <workItem from="1588596075813" duration="1199000" />
+      <workItem from="1588723130613" duration="6450000" />
+      <workItem from="1588937068687" duration="3638000" />
     </task>
     <servers />
   </component>
@@ -76,29 +115,49 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="933" y="167" key="FileChooserDialogImpl" timestamp="1587295992654">
+    <state x="384" y="0" key="#Java" timestamp="1588937159212">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="933" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587295992654" />
-    <state width="725" height="208" key="GridCell.Tab.0.bottom" timestamp="1587728651118">
+    <state x="384" y="0" key="#Java/0.0.1536.824@0.0.1536.824" timestamp="1588937159212" />
+    <state x="361" y="53" key="#Plugins" timestamp="1588770733612">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="725" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587728651118" />
-    <state width="725" height="208" key="GridCell.Tab.0.center" timestamp="1587728651118">
+    <state x="361" y="53" key="#Plugins/0.0.1536.824@0.0.1536.824" timestamp="1588770733612" />
+    <state x="534" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588769790404">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="725" height="208" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587728651118" />
-    <state width="725" height="208" key="GridCell.Tab.0.left" timestamp="1587728651118">
+    <state x="534" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1588769790404" />
+    <state x="503" y="264" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1588770423398">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="725" height="208" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587728651118" />
-    <state width="725" height="208" key="GridCell.Tab.0.right" timestamp="1587728651118">
+    <state x="503" y="264" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1588770423398" />
+    <state x="933" y="167" key="FileChooserDialogImpl" timestamp="1588953966485">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="725" height="208" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587728651118" />
-    <state x="815" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1588072730712">
+    <state x="933" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1588953966485" />
+    <state width="723" height="209" key="GridCell.Tab.0.bottom" timestamp="1588991388786">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="815" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1588072730712" />
+    <state width="723" height="209" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588991388786" />
+    <state width="723" height="209" key="GridCell.Tab.0.center" timestamp="1588991388786">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="723" height="209" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588991388786" />
+    <state width="723" height="209" key="GridCell.Tab.0.left" timestamp="1588991388786">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="723" height="209" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588991388786" />
+    <state width="723" height="209" key="GridCell.Tab.0.right" timestamp="1588991388786">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="723" height="209" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588991388786" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1588770628415">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1588770628415" />
+    <state x="815" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1588770654363">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="815" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1588770654363" />
   </component>
 </project>
