@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31fdcd26-4658-4424-a58c-9666d8ef8950" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/depaul/email/test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/depaul/email/EmailFinderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/depaul/email/EmailFinderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/edu/depaul/email/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/depaul/email/test.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +46,13 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
-  <component name="RunManager" selected="JUnit.EmailFinderTest.testPageParser">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\brian\GitHub_Repos\email-finder\src\test\java\edu\depaul\email" />
+      <recent name="C:\Users\brian\GitHub_Repos\email-finder\src\test\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.EmailFinder">
     <configuration name="EmailFinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu.depaul.email.EmailFinder" />
       <module name="email-finder" />
@@ -95,9 +100,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EmailFinder" />
         <item itemvalue="JUnit.EmailFinderTest.testPageParser" />
         <item itemvalue="JUnit.EmailFinderTest.testSetupStorage" />
-        <item itemvalue="Application.EmailFinder" />
       </list>
     </recent_temporary>
   </component>
@@ -124,6 +129,7 @@
       <workItem from="1588991660544" duration="2583000" />
       <workItem from="1589203756679" duration="599000" />
       <workItem from="1589291130012" duration="256000" />
+      <workItem from="1589454301476" duration="3202000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;commit2&quot;">
       <created>1588991844548</created>
@@ -171,22 +177,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="933" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1588953966485" />
-    <state width="725" height="207" key="GridCell.Tab.0.bottom" timestamp="1589291386599">
+    <state width="1493" height="208" key="GridCell.Tab.0.bottom" timestamp="1589461199076">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="725" height="207" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589291386599" />
-    <state width="725" height="207" key="GridCell.Tab.0.center" timestamp="1589291386598">
+    <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589461199076" />
+    <state width="1493" height="208" key="GridCell.Tab.0.center" timestamp="1589461199076">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="725" height="207" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589291386598" />
-    <state width="725" height="207" key="GridCell.Tab.0.left" timestamp="1589291386598">
+    <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589461199076" />
+    <state width="1493" height="208" key="GridCell.Tab.0.left" timestamp="1589461199076">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="725" height="207" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589291386598" />
-    <state width="725" height="207" key="GridCell.Tab.0.right" timestamp="1589291386599">
+    <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589461199076" />
+    <state width="1493" height="208" key="GridCell.Tab.0.right" timestamp="1589461199076">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="725" height="207" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589291386599" />
+    <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589461199076" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1588770628415">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
