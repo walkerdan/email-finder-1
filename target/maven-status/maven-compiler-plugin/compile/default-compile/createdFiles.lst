@@ -1,0 +1,8 @@
+edu\depaul\email\ListWriter.class
+edu\depaul\email\EmailFinderException.class
+edu\depaul\email\PageCrawler.class
+edu\depaul\email\PageParser.class
+edu\depaul\email\StorageService$StorageType.class
+edu\depaul\email\PageFetcher.class
+edu\depaul\email\StorageService.class
+edu\depaul\email\EmailFinder.class
