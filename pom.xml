@@ -96,11 +96,12 @@
         <configuration>
           <finalName>email-finder</finalName>
           <appendAssemblyId>false</appendAssemblyId>
-          <descriptorRefs>
+          <!--<descriptorRefs>
             <descriptorRef>src</descriptorRef>
-            <descriptorRef>jar-with-dependencies</descriptorRef>
+            <descriptorRef>jar-with-dependencies</descriptorRef> -->
+          <descriptors>
             <descriptor>src/assembly/assembly.xml</descriptor>
-          </descriptorRefs>
+          </descriptors>
           <archive>
             <manifest>
               <mainClass>edu.depaul.email.EmailFinder</mainClass>
