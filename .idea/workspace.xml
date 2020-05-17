@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31fdcd26-4658-4424-a58c-9666d8ef8950" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assembly/assembly.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -133,7 +131,7 @@
       <workItem from="1589291130012" duration="256000" />
       <workItem from="1589454301476" duration="3202000" />
       <workItem from="1589461834104" duration="919000" />
-      <workItem from="1589713899940" duration="1272000" />
+      <workItem from="1589713899940" duration="1976000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;commit2&quot;">
       <created>1588991844548</created>

@@ -62,26 +62,6 @@
   <build>
     <plugins>
       <plugin>
-        <artifactId>maven-assembly-plugin</artifactId>
-        <version>3.1.0</version>
-        <configuration>
-          <finalName>Baster</finalName>
-          <appendAssemblyId>false</appendAssemblyId>
-          <descriptors>
-            <descriptor>src/assembly/assembly.xml</descriptor>
-          </descriptors>
-        </configuration>
-        <executions>
-          <execution>
-            <id>make-assembly</id>
-            <phase>package</phase> <!-- bind to the packaging phase -->
-            <goals>
-              <goal>single</goal>
-            </goals>
-          </execution>
-        </executions>
-      </plugin>
-      <plugin>
         <groupId>org.jacoco</groupId>
         <artifactId>jacoco-maven-plugin</artifactId>
         <version>0.8.2</version>
@@ -119,6 +99,7 @@
           <descriptorRefs>
             <descriptorRef>src</descriptorRef>
             <descriptorRef>jar-with-dependencies</descriptorRef>
+            <descriptor>src/assembly/assembly.xml</descriptor>
           </descriptorRefs>
           <archive>
             <manifest>
