@@ -13,12 +13,6 @@ import static org.mockito.ArgumentMatchers.any;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class EmailFinderTest {
-  @Test
-  @DisplayName("Test that a new StorageService is an instance of StorageService")
-  void testSetupStorage() {
-    StorageService t = new StorageService();
-    assertTrue(t instanceof StorageService);
-  }
 
   @Test
   @DisplayName("Test Page Parser")

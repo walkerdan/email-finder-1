@@ -2,22 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31fdcd26-4658-4424-a58c-9666d8ef8950" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/depaul/email/StorageServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assembly/assembly.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/assembly/assembly.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/edu/depaul/email/EmailFinderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/depaul/email/EmailFinderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/edu/depaul/email/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-05-17T07-40-03_993-jvmRun1.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-05-17T07-40-03_993.dumpstream" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="C:\Users\brian\GitHub_Repos\email-finder\src\test\resources\coverage_report" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
         <option value="Tag Library Descriptor" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -37,7 +46,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/OneDrive/Desktop/Software Testing/Week4/SOFTWARE TESTING - 2019-2020 Spring - 4222020 - 607 AM/MocksInClass/MocksInClass/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/coverage_report" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -52,8 +61,10 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\brian\GitHub_Repos\email-finder\src\test\java\edu\depaul\email" />
       <recent name="C:\Users\brian\GitHub_Repos\email-finder\src\test\resources" />
+      <recent name="C:\Users\brian\GitHub_Repos\email-finder\src\test\resources\coverage_report\.css" />
+      <recent name="C:\Users\brian\GitHub_Repos\email-finder\src\test\resources\coverage_report" />
+      <recent name="C:\Users\brian\GitHub_Repos\email-finder\src\test\java\edu\depaul\email" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -61,7 +72,7 @@
       <command value="mvn clean verify" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.EmailFinderTest">
+  <component name="RunManager" selected="JUnit.StorageServiceTest.testStoreList">
     <configuration name="EmailFinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu.depaul.email.EmailFinder" />
       <module name="email-finder" />
@@ -106,7 +117,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmailFinderTest.testSetupStorage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StorageServiceTest.testStoreList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="email-finder" />
       <extension name="coverage">
         <pattern>
@@ -115,19 +126,34 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="edu.depaul.email" />
-      <option name="MAIN_CLASS_NAME" value="edu.depaul.email.EmailFinderTest" />
-      <option name="METHOD_NAME" value="testSetupStorage" />
+      <option name="MAIN_CLASS_NAME" value="edu.depaul.email.StorageServiceTest" />
+      <option name="METHOD_NAME" value="testStoreList" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="edu.depaul.email in email-finder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="email-finder" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.depaul.email.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.depaul.email" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StorageServiceTest.testStoreList" />
+        <item itemvalue="JUnit.edu.depaul.email in email-finder" />
         <item itemvalue="JUnit.EmailFinderTest" />
         <item itemvalue="Application.EmailFinder" />
         <item itemvalue="JUnit.EmailFinderTest.testPageParser" />
-        <item itemvalue="JUnit.EmailFinderTest.testSetupStorage" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +183,10 @@
       <workItem from="1589454301476" duration="3202000" />
       <workItem from="1589461834104" duration="919000" />
       <workItem from="1589713899940" duration="1976000" />
-      <workItem from="1589718983186" duration="3552000" />
+      <workItem from="1589718983186" duration="4529000" />
+      <workItem from="1589739494988" duration="3359000" />
+      <workItem from="1589770977591" duration="2315000" />
+      <workItem from="1589798335455" duration="1031000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;commit2&quot;">
       <created>1588991844548</created>
@@ -197,6 +226,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="551" y="281" width="433" height="267" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1589737347158" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589739602862">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1589739602862" />
     <state x="503" y="264" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1589719278840">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -205,26 +238,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="777" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1588991844110" />
-    <state x="933" y="167" key="FileChooserDialogImpl" timestamp="1589713912378">
+    <state x="933" y="167" key="FileChooserDialogImpl" timestamp="1589739749661">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="933" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1589713912378" />
-    <state width="1493" height="183" key="GridCell.Tab.0.bottom" timestamp="1589738203224">
+    <state x="933" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1589739749661" />
+    <state width="1493" height="202" key="GridCell.Tab.0.bottom" timestamp="1589774425887">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="183" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589738203224" />
-    <state width="1493" height="183" key="GridCell.Tab.0.center" timestamp="1589738203224">
+    <state width="1493" height="202" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589774425887" />
+    <state width="1493" height="202" key="GridCell.Tab.0.center" timestamp="1589774425887">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="183" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589738203224" />
-    <state width="1493" height="183" key="GridCell.Tab.0.left" timestamp="1589738203224">
+    <state width="1493" height="202" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589774425887" />
+    <state width="1493" height="202" key="GridCell.Tab.0.left" timestamp="1589774425887">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="183" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589738203224" />
-    <state width="1493" height="183" key="GridCell.Tab.0.right" timestamp="1589738203224">
+    <state width="1493" height="202" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589774425887" />
+    <state width="1493" height="202" key="GridCell.Tab.0.right" timestamp="1589774425887">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="183" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589738203224" />
+    <state width="1493" height="202" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589774425887" />
     <state x="544" y="133" key="RollbackChangesDialog" timestamp="1589719240446">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -233,16 +266,27 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1588770628415" />
-    <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1589719200486">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1589799372195">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1589719200486" />
-    <state x="815" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1588992902220">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1589799372195" />
+    <state x="562" y="314" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1589799343056">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="815" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1588992902220" />
+    <state x="562" y="314" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1536.824@0.0.1536.824" timestamp="1589799343056" />
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1589798856893">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1589798856893" />
+    <state x="815" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1589771240128">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="815" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1589771240128" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/email_finder$edu_depaul_email_in_email_finder.ic" NAME="edu.depaul.email in email-finder Coverage Results" MODIFIED="1589740563193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.depaul.email.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/email_finder$EmailFinderTest.ic" NAME="EmailFinderTest Coverage Results" MODIFIED="1589738203177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>edu.depaul.email.*</FILTER>
     </SUITE>
